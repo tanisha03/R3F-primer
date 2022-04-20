@@ -1,7 +1,8 @@
 import React, { Suspense } from "react";
 import { Canvas } from '@react-three/fiber'
-import InvactCity from './InvactCity.js';
-import InvactCityGLB from './InvactCityGLB.js';
+import InvactCity from './InvactCity';
+import InvactCityGLB from './InvactCityGLB';
+import Player from './Player';
 import { OrbitControls, PerspectiveCamera, Sky } from '@react-three/drei';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Suspense fallback={null}>
           {/* <InvactCity/> */}
           <InvactCityGLB/>
+          <Player />
         </Suspense>
       </Canvas>
     </div>
