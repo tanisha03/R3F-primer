@@ -1,8 +1,8 @@
 import React, { Suspense, useState } from "react";
 import { Canvas } from '@react-three/fiber'
-import InvactCity from './InvactCity';
-import InvactCityGLB from './InvactCityGLB';
-import Player from './Player';
+import InvactCity from './3d/InvactCity';
+import InvactCityGLB from './3d/InvactCityGLB';
+import Player from './3d/Player';
 import { OrbitControls, PerspectiveCamera, Sky } from '@react-three/drei';
 import "./App.css";
 
