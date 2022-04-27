@@ -9,4 +9,5 @@ Branch | Step |
 main | The final code piece | 
 load-a-map | Loading a blender file onto the the web | 
 get-a-character | Put a character onto the canvas | 
-animate | Make the character move | 
+animate | Make the character animate | 
+keyboard-controls | Controlling the character movements | 
